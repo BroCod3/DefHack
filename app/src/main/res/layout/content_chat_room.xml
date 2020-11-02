@@ -4,34 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#E5E5E5"
+    android:background="#FFFFFF"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.anasdavood.appforcusat.BOtmachan"
     tools:showIn="@layout/botmachan_main">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="606dp"
+        android:layout_above="@+id/null1"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="162dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-11dp"
         android:scrollbars="vertical"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:ignore="UnknownId" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="66dp"
+        android:id="@+id/null1"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginBottom="10dp"
-        android:background="@android:color/white"
+        android:background="#F1F0F0"
         android:orientation="horizontal"
         android:weightSum="4">
 

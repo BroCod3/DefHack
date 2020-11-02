@@ -2,18 +2,21 @@ package com.anasdavood.appforcusat;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -51,6 +54,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import pl.droidsonroids.gif.GifImageView;
+
 public class BOtmachan extends AppCompatActivity {
 
 
@@ -75,6 +80,9 @@ public class BOtmachan extends AppCompatActivity {
   private Response<SessionResponse> watsonAssistantSession;
   private SpeechToText speechService;
   private TextToSpeech textToSpeech;
+    TextView askme;
+    View back;
+    GifImageView gifImageView;
 
   private void createServices() {
     watsonAssistant = new Assistant("2019-02-28", new IamAuthenticator(mContext.getString(R.string.assistant_apikey)));
@@ -85,6 +93,7 @@ public class BOtmachan extends AppCompatActivity {
 
     speechService = new SpeechToText(new IamAuthenticator(mContext.getString(R.string.STT_apikey)));
     speechService.setServiceUrl(mContext.getString(R.string.STT_url));
+
   }
 
   @Override
@@ -93,6 +102,7 @@ public class BOtmachan extends AppCompatActivity {
     setContentView(R.layout.botmachan_main);
 
     mContext = getApplicationContext();
+    getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
     inputMessage = findViewById(R.id.message);
     btnSend = findViewById(R.id.btn_send);
@@ -113,6 +123,19 @@ public class BOtmachan extends AppCompatActivity {
     recyclerView.setAdapter(mAdapter);
     this.inputMessage.setText("");
     this.initialRequest = true;
+
+      back = findViewById(R.id.back);
+
+      back.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              Intent i=new Intent(BOtmachan.this, MainActivity.class);
+              i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+              startActivity(i);
+          }
+      });
+
+
 
 
     int permission = ContextCompat.checkSelfPermission(this,
