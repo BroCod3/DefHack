@@ -46,12 +46,21 @@ android {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/INDEX.LIST'
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    applicationVariants.all { variant ->
+        variant.getRuntimeConfiguration().exclude group: 'com.google.code.findbugs', module: 'jsr305'
+        variant.getRuntimeConfiguration().exclude group: 'com.google.code.findbugs', module: 'annotations'}
 }
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -66,5 +75,18 @@ dependencies {
     // for Remote Procedure Call to avoid "No functional channel service provider found" error while creating SessionsClient
     implementation 'io.grpc:grpc-okhttp:1.29.0'
     implementation 'com.github.baoyachi:StepView:1.9'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.ibm.watson:assistant:8.1.0'
+    implementation 'com.ibm.watson:text-to-speech:8.1.0'
+    implementation 'com.ibm.watson:speech-to-text:8.1.0'
+    implementation 'com.ibm.watson.developer_cloud:android-sdk:0.5.0'
+    implementation 'com.google.android.gms:play-services:10.0.1'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation ('com.github.bumptech.glide:glide:4.9.0') {
+        exclude group: "com.android.support"
+    }
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
 
 }

@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         bot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, BotMain.class);
+                Intent i = new Intent(MainActivity.this, BOtmachan.class);
                 startActivity(i);
             }
         });
