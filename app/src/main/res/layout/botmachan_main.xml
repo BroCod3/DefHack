@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="#E5E5E5"
     tools:context="com.anasdavood.appforcusat.BOtmachan">
 
     <include layout="@layout/content_chat_room" />
