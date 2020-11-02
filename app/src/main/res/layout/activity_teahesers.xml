@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EFEF"
+    tools:context=".Teahesers">
+    <View
+        android:id="@+id/menu"
+        android:layout_width="24dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_svg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/event_alert"
+        android:layout_width="116dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="Event Alert"
+        android:textAppearance="@style/event_alert"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/view_more"
+        android:layout_width="77dp"
+        android:layout_height="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="View more"
+        android:textAppearance="@style/view_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scroll"
+        android:layout_width="410dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/cc"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="My Categories"
+        android:textAppearance="@style/event_alert"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" />
+
+
+    <LinearLayout
+        android:id="@+id/sstatus"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_box"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54"
+        >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="-5sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/reminde" />
+
+        <TextView
+            android:id="@+id/schedule_st1"
+            android:layout_width="82dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="2sp"
+            android:textStyle="bold"
+            android:text="SCHEDULE \n  CLASS"
+            android:textAppearance="@style/schedule_st"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/library"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_box"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674">
+
+        <ImageView
+            android:id="@+id/imag2"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="-5sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/book" />
+
+        <TextView
+            android:id="@+id/schedule_st2"
+            android:layout_width="82dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="2sp"
+            android:gravity="center"
+            android:text="LIBRARY"
+            android:textAppearance="@style/schedule_st"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adressbk"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_box"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808">
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="-5sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/personal" />
+
+        <TextView
+            android:id="@+id/schedule_st3"
+            android:layout_width="82dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="2sp"
+            android:gravity="center"
+            android:text="ADDRESS \nBOOK"
+            android:textAppearance="@style/schedule_st"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/publicchat"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_box"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674"
+        >
+
+        <ImageView
+            android:id="@+id/image4View3"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="-5sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chat" />
+
+        <TextView
+            android:id="@+id/schedule_st4"
+            android:layout_width="82dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="2sp"
+            android:textStyle="bold"
+            android:text="PUBLIC\nCHAT"
+            android:textAppearance="@style/schedule_st"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/myss"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_box"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808"
+        >
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="-5sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/career" />
+
+        <TextView
+            android:id="@+id/schedule_st5"
+            android:layout_width="95dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="4sp"
+            android:textStyle="bold"
+            android:text="STUDENTS \nREPORT"
+            android:textAppearance="@style/schedule_st"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fee"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:background="@drawable/ic_box"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541"
+        >
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="-5sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="5sp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/revenue" />
+
+        <TextView
+            android:id="@+id/schedule_st6"
+            android:layout_width="82dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="2sp"
+            android:textStyle="bold"
+            android:text="FEE \nPAYMENT"
+            android:textAppearance="@style/schedule_st"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="681dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="572dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="475dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/rectangle_4"
+        android:layout_width="360dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_box1"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home1"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="-35sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/notibtm"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_marginStart="250sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="20sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/noti2" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/bot"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/circle"
+        android:elevation="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.708">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="55dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="17sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bot" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

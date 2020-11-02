@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220"
+    >
+
+    <group>
+
+        <path
+            android:pathData="M4 0H216C218.209 0 220 1.79086 220 4V216C220 218.209 218.209 220 216 220H4C1.79086 220 0 218.209 0 216V4C0 1.79086 1.79086 0 4 0Z"
+            />
+
+    </group>
+
+</vector>
