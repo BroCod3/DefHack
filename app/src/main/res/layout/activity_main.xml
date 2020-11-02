@@ -131,7 +131,7 @@
             android:layout_marginTop="25sp"
             android:layout_marginEnd="2sp"
             android:textStyle="bold"
-            android:text="SCHEDULE \n  STATUS"
+            android:text="CLASS \nSTATUS"
             android:textAppearance="@style/schedule_st"
             android:gravity="center"
             />

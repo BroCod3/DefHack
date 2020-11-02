@@ -35,10 +35,11 @@
 
 
     <View
-        android:id="@+id/vlines"
+        android:id="@+id/vline1"
         android:layout_width="8dp"
         android:layout_height="120dp"
         android:background="@drawable/icline1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.29"
@@ -53,6 +54,7 @@
         android:background="@drawable/icline1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="invisible"
         app:layout_constraintHorizontal_bias="0.29"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -162,10 +164,11 @@
         app:layout_constraintVertical_bias="0.484" />
 
     <View
-        android:id="@+id/vdc2"
+        android:id="@+id/vdc3"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/circle2"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
@@ -192,6 +195,7 @@
         android:id="@+id/vdc1"
         android:layout_width="20dp"
         android:layout_height="20dp"
+        android:visibility="invisible"
         android:background="@drawable/circle2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -316,7 +320,7 @@
 
 
     <View
-        android:id="@+id/vdc3"
+        android:id="@+id/vdc4"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/circle2"
@@ -341,7 +345,7 @@
         app:layout_constraintVertical_bias="0.939" />
 
     <View
-        android:id="@+id/vdc5"
+        android:id="@+id/vdc6"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/circle2"
@@ -367,7 +371,7 @@
 
 
     <View
-        android:id="@+id/vdc4"
+        android:id="@+id/vdc5"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/circle2"
@@ -394,10 +398,11 @@
         app:layout_constraintVertical_bias="0.331" />
 
     <View
-        android:id="@+id/vdc"
+        android:id="@+id/vdc2"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:background="@drawable/circle2"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
@@ -470,7 +475,7 @@
 
 
     <LinearLayout
-        android:id="@+id/ll3"
+        android:id="@+id/ll5"
         android:layout_width="180dp"
         android:layout_height="80dp"
         android:layout_alignParentLeft="true"
@@ -526,7 +531,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ll5"
+        android:id="@+id/ll3"
         android:layout_width="180dp"
         android:layout_height="80dp"
         android:layout_alignParentLeft="true"

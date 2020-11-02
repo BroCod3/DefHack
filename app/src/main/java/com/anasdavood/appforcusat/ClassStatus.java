@@ -15,6 +15,7 @@ import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.baoyachi.stepview.VerticalStepView;
 
@@ -30,6 +31,8 @@ public class ClassStatus extends AppCompatActivity {
     VerticalStepView step_view;
     TextView txtdat,day,am,am2,am3,am4,am6,am5,txt1,txt2,txt3,txt4,txt5,txt6;
     LinearLayout ll1,ll2,ll3,ll4,ll5,ll6;
+    View vdc1,vdc2,vdc3,vdc4,vdc5,vdc6;
+    View vdl1,vdl2,vdl3,vdl4,vdl5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +56,19 @@ public class ClassStatus extends AppCompatActivity {
         txt4 = findViewById(R.id.txt4);
         txt5= findViewById(R.id.txt5);
         txt6= findViewById(R.id.txt6);
+
+        vdc1= findViewById(R.id.vdc1);
+        vdc2= findViewById(R.id.vdc2);
+        vdc3= findViewById(R.id.vdc3);
+        vdc4= findViewById(R.id.vdc4);
+        vdc5= findViewById(R.id.vdc5);
+        vdc6= findViewById(R.id.vdc6);
+
+        vdl1= findViewById(R.id.vline1);
+        vdl2= findViewById(R.id.vlines2);
+        vdl3= findViewById(R.id.vlines3);
+        vdl4= findViewById(R.id.vlines4);
+        vdl5= findViewById(R.id.vlines5);
         status();
 
 
@@ -78,33 +94,96 @@ public class ClassStatus extends AppCompatActivity {
     public void status(){
         SimpleDateFormat sdf = new SimpleDateFormat("HHmm");
         String str = sdf.format(new Date());
-        long l = Long.parseLong("0930");
-        long ll = Long.parseLong("1030");
-        long lll = Long.parseLong("1130");
+
         int i = Integer.parseInt(str);
 
 
-        if(i>l)
+        if(i>930)
         {
             am.setTextColor(Color.parseColor("#C4C4C4"));
            // am5.setTextColor(Color.parseColor("#EB5757"));
             txt1.setTextColor(Color.parseColor("#45000000"));
             ll1.setBackgroundResource(R.drawable.ic_boxcompleted);
+            vdc1.setVisibility(View.VISIBLE);
 
 
         }
-        if(i>ll)
+        if(i>1030)
         {
             am2.setTextColor(Color.parseColor("#C4C4C4"));
             txt2.setTextColor(Color.parseColor("#45000000"));
             ll2.setBackgroundResource(R.drawable.ic_boxcompleted);
+            vdc1.setVisibility(View.VISIBLE);
+            vdl1.setVisibility(View.VISIBLE);
+            vdc2.setVisibility(View.VISIBLE);
 
         }
-        if(i>lll)
+        if(i>1130)
         {
             am3.setTextColor(Color.parseColor("#C4C4C4"));
             txt3.setTextColor(Color.parseColor("#45000000"));
             ll3.setBackgroundResource(R.drawable.ic_boxcompleted);
+            vdc1.setVisibility(View.VISIBLE);
+            vdl1.setVisibility(View.VISIBLE);
+            vdc2.setVisibility(View.VISIBLE);
+            vdl2.setVisibility(View.VISIBLE);
+            vdc3.setVisibility(View.VISIBLE);
+
+
+
+        }
+        if(i>1230)
+        {
+            am4.setTextColor(Color.parseColor("#C4C4C4"));
+            txt4.setTextColor(Color.parseColor("#45000000"));
+            ll4.setBackgroundResource(R.drawable.ic_boxcompleted);
+
+            vdc1.setVisibility(View.VISIBLE);
+            vdl1.setVisibility(View.VISIBLE);
+            vdc2.setVisibility(View.VISIBLE);
+            vdl2.setVisibility(View.VISIBLE);
+            vdc3.setVisibility(View.VISIBLE);
+            vdl3.setVisibility(View.VISIBLE);
+            vdc4.setVisibility(View.VISIBLE);
+
+
+
+        }
+        if(i>1430)
+        {
+            am5.setTextColor(Color.parseColor("#C4C4C4"));
+            txt5.setTextColor(Color.parseColor("#45000000"));
+            ll5.setBackgroundResource(R.drawable.ic_boxcompleted);
+            vdc1.setVisibility(View.VISIBLE);
+            vdl1.setVisibility(View.VISIBLE);
+            vdc2.setVisibility(View.VISIBLE);
+            vdl2.setVisibility(View.VISIBLE);
+            vdc3.setVisibility(View.VISIBLE);
+            vdl3.setVisibility(View.VISIBLE);
+            vdc4.setVisibility(View.VISIBLE);
+            vdl4.setVisibility(View.VISIBLE);
+            vdc5.setVisibility(View.VISIBLE);
+
+
+
+        }
+        if(i>1530)
+        {
+            am6.setTextColor(Color.parseColor("#C4C4C4"));
+            txt6.setTextColor(Color.parseColor("#45000000"));
+            ll6.setBackgroundResource(R.drawable.ic_boxcompleted);
+
+            vdc1.setVisibility(View.VISIBLE);
+            vdl1.setVisibility(View.VISIBLE);
+            vdc2.setVisibility(View.VISIBLE);
+            vdl2.setVisibility(View.VISIBLE);
+            vdc3.setVisibility(View.VISIBLE);
+            vdl3.setVisibility(View.VISIBLE);
+            vdc4.setVisibility(View.VISIBLE);
+            vdl4.setVisibility(View.VISIBLE);
+            vdc5.setVisibility(View.VISIBLE);
+            vdl5.setVisibility(View.VISIBLE);
+            vdc6.setVisibility(View.VISIBLE);
 
 
 

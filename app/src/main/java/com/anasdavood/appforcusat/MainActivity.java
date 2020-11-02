@@ -105,7 +105,8 @@ public class MainActivity extends AppCompatActivity {
         publicchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Work of Philona", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(MainActivity.this, Publiccahat.class);
+                startActivity(i);
             }
         });
         adress.setOnClickListener(new View.OnClickListener() {
