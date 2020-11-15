@@ -2,24 +2,25 @@
 Project For DefHack Hackathon by Team **BroCode**.
 
 ## Problem Statements
-As we all know, we are in the phase of pandemic covid-19, and students are forced to do their schooling through online means.</br>
-- This created a barrier between the student teacher relationship, and between the fellow colleagues.
+As we all know, we are in the phase of Coronavirus (COVID-19) pandemic, and the students are forced to do their schooling through online means.</br>
+- This created a barrier in student teacher relationship, and between the fellow colleagues.
 - The managements are failing to provide adequate support to both the students and faculties.
 - All Students are facing problems in time management of classes.
 - All the facilities provided by the management such as library, labs etc remain unused.
 - More mental pressure for the students.
 
 ## Solution 
-An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or University. Meet our product **Qnet**. 
+An All-In-One Platform To Meet 80% Of Students Need In School, College or University. </br>
+Meet our product **Qnet**. 
 
 ![Qnet Home](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Home%20UI.jpg)
 
 
 ## Features
 
-- **Voice Assistant** : An important feature in the app, which can perform all the features below.
+- **Voice Assistant** : The important feature in the app, which can perform all the features below.
 - **Class Scheduling:** Helps faculties to schedule classes, which makes easier for the students to know the time.
-- **Attendance Alert:** Gives a alert when attendance is low.
+- **Attendance Alert:** Gives alert when attendance is low.
 - **Fee Payment:** Exam fee and other Academic related fees can be payed with ease.
 - **Library:** This include notes, previous year question papers and all the reference books within the syllabus.  
 - **Academic Status:** Shows detailed view of acedamic performance.
@@ -30,7 +31,7 @@ An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or Univ
 
 ## Key Feature
 
-Meet our NLP model **Qbot**, powered by IBM Assistant. The Qbot acts as an assistant to each student in the school/college/university, providing support in all the activities, including academics. This bot bridges the gap between the student and school/college/university.   </br>
+Meet our NLP model **Qbot**, powered by IBM Assistant. The Qbot acts as an assistant to each student, providing support in all the activities, including academics. This bot bridges the gap between the student and school/college/university.   </br>
 </br>
 ![gif](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Bot%20GIF-downsized_large.gif)
 
@@ -42,7 +43,7 @@ Meet our NLP model **Qbot**, powered by IBM Assistant. The Qbot acts as an assis
 
 ## Requirements
 
-A mobile phone running on Android.
+A mobile phone with Android as OS.
 
 ## Build With(Technology Stacks)
 
@@ -61,5 +62,3 @@ Install the app and login as Faculty or Student.
 ![Adarsh](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Adarsh.jpg) | ![Akhil](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Akhil.jpg) | ![Alexy](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Alexy.jpg) | ![Anas](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Anas.jpg) | ![Philona](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Philona.jpg)
 ------------ | ------------- | ------------- | ------------- | ------------- 
 [@Adarsh88](https://github.com/Adarsh88) | [@itexpert2572000](https://github.com/itexpert2572000) | [@AlexyPulivelil](https://github.com/AlexyPulivelil) | [@ANASDAVOODTK](https://github.com/ANASDAVOODTK) | [@philona123](https://github.com/philona123)
-
-## Thankyou
