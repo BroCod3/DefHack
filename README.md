@@ -8,7 +8,7 @@ As we all know, we are in the phase of pandemic covid-19, and students are force
 - Pendemic also became a threat to other extra curricular activities.
 - All the facilities provided by the management such as library, labs etc remain unused.
 
-## Solution ?
+## Solution 
 An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or University. Meet the product **Qnet**. 
 
 ![Qnet Home](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Home%20UI.jpg)
@@ -43,7 +43,7 @@ Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant
 
 A mobile phone running on Android.
 
-## Build With
+## Build With(Technology Stacks)
 
 - [JAVA](https://java.com/en/) - Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.Used here to develop the Android application.
 - [FIREBASE](https://firebase.google.com/) - Firebase is a platform developed by Google for creating mobile and web applications. Used here to store data in the cloud
