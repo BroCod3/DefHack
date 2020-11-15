@@ -2,7 +2,7 @@
 *The Project For DefHack Hackathon by Team BroCode*
 
 ## What is it ?
-An All-In-One Platform To Meet 80% Of Your Needs In Your College or University. Developed By Team BroCode
+An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or University. Developed By Team BroCode
 
 ![Qnet Home](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Home%20UI.jpg)
 
