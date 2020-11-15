@@ -65,6 +65,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     // Dialogflow SDK dependencies for older V1 --- recommend not to use this
+    //
     implementation 'ai.api:sdk:2.0.7@aar'
     implementation 'ai.api:libai:1.6.12'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
