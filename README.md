@@ -25,7 +25,7 @@ An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or Univ
 - **Academic Status:** Shows detailed view of acedamic performance.
 - **Address Book:** Shows the details of faculties and students, along withe the social handles to connect with each other.
 - **Public Chat:** A public chat room which can be used by all students, within the same management.
-- **Event Alert:** An event alert bullecting board for alerting students about the latest events.
+- **Event Alert:** An event alert bulletin board for alerting students about the latest events.
 
 
 ## Key Feature
