@@ -38,7 +38,7 @@ Mobile Phone Running on Android
 
 - [JAVA](https://java.com/en/) - To develop Android applications
 - [FIREBASE](https://firebase.google.com/) - To store the data in Cloud
-- [IBM WATSON](https://www.ibm.com/in-en/cloud/watson-assistant#:~:text=Watson%20Assistant%20is%20IBM's%20AI,any%20application%2C%20device%20or%20channel.) - Used for the Bot integration
+- [IBM ASSISTANT](https://www.ibm.com/in-en/cloud/watson-assistant#:~:text=Watson%20Assistant%20is%20IBM's%20AI,any%20application%2C%20device%20or%20channel.) - Used for the Bot integration
 - [FIGMA](https://www.figma.com/) - Vector graphics editor and prototyping tool
 - [FRAMER](www.framer.com) - Prototyping Tool for Teams
 
