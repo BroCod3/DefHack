@@ -2,8 +2,8 @@
 Project For DefHack Hackathon by Team **BroCode**.
 
 ## Problem Statement
-As we all know, we are in the phase of pendemic Covid-19, and students are forced to do their schooling through oline means.</br>
-- This created a barrior between the student teacher realationship, and between the fellow colleagues.
+As we all know, we are in the phase of pandemic covid-19, and students are forced to do their schooling through online means.</br>
+- This created a barrier between the student teacher relationship, and between the fellow colleagues.
 - The managements are failing to provide adequate support to both the students and faculties.
 - Pendemic also became a threat to other extra curricular activities.
 - All the facilities provided by the management such as library, labs etc remain unused.
@@ -29,7 +29,7 @@ An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or Univ
 
 ## Key Feature
 
-Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and college/university.   </br>
+Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the school, college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and college/university.   </br>
 </br>
 ![gif](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Bot%20GIF-downsized_large.gif)
 
