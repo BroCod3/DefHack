@@ -17,6 +17,14 @@ An All-In-One Platform To Meet 80% Of Your Needs In Your College or University. 
 - **Academic Status:** Shows detailed view of acedamic performance.
 - **Address Book:** Shows the details of faculties and students.
 
+
+## Key Feature
+
+Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and college/university.   </br>
+</br>
+![gif](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Bot%20GIF-downsized_large.gif)
+
+
 ## Showcase
 
 ![Features Showcase](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Final.jpg)
