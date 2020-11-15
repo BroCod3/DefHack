@@ -1,26 +1,34 @@
 # QNET
-*The Project For DefHack Hackathon by Team BroCode*
+Project For DefHack Hackathon by Team **BroCode**
 
-## What is it ?
-An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or University. Developed By Team BroCode
+## Problem Statement
+As we all know, we are in the phase of pendemic Covid-19, and students are forced to do their schooling through oline means.</br>
+- This created a barrior between the student teacher realationship, and between the fellow colleagues.
+- The managements are failing to provide adequate support to both the students and faculties.
+- Pendemic also became a threat to our extra curricular activities.
+
+## Solution ?
+An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or University. Meet the product **Qnet**. 
 
 ![Qnet Home](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Home%20UI.jpg)
 
 
 ## Features
 
-- **Voice Assistant** : Important feature in the app, which perform all the below mentioned features.
-- **Class Scheduling:** Helps to schedule classes which makes easier for the students to know the time.
+- **Voice Assistant** : An important feature in the app, which can perform all the features below.
+- **Class Scheduling:** Helps faculties to schedule classes, which makes easier for the students to know the time.
 - **Attendance Alert:** Gives a track with low attendence alert.
-- **Fee Payment:** Academic fees can be payed easily.
-- **Library:** Include all reference books and notes. 
+- **Fee Payment:** Exam fee and other Academic related fee can be payed with ease.
+- **Library:** This include notes, previous year question papers and all the reference books within the syllabus.  
 - **Academic Status:** Shows detailed view of acedamic performance.
-- **Address Book:** Shows the details of faculties and students.
+- **Address Book:** Shows the details of faculties and students, along withe the social handles to connect with each other.
+- **Public Chat:** A public chat room which can be used by all students, within the same management.
+- **Event Alert:** An event alert bullecting board for alerting students about the latest events.
 
 
 ## Key Feature
 
-Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and school/college/university.   </br>
+Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and college/university.   </br>
 </br>
 ![gif](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Bot%20GIF-downsized_large.gif)
 
@@ -32,19 +40,19 @@ Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant
 
 ## Requirements
 
-Mobile Phone Running on Android 
+A mobile phone running on Android.
 
 ## Build With
 
-- [JAVA](https://java.com/en/) - To develop Android applications
-- [FIREBASE](https://firebase.google.com/) - To store the data in Cloud
-- [IBM ASSISTANT](https://www.ibm.com/in-en/cloud/watson-assistant#:~:text=Watson%20Assistant%20is%20IBM's%20AI,any%20application%2C%20device%20or%20channel.) - Used for the Bot integration
-- [FIGMA](https://www.figma.com/) - Vector graphics editor and prototyping tool
-- [FRAMER](www.framer.com) - Prototyping Tool for Teams
+- [JAVA](https://java.com/en/) - Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.Used here to develop the Android application.
+- [FIREBASE](https://firebase.google.com/) - Firebase is a platform developed by Google for creating mobile and web applications. Used here to store data in the cloud
+- [IBM WATSON](https://www.ibm.com/in-en/cloud/watson-assistant#:~:text=Watson%20Assistant%20is%20IBM's%20AI,any%20application%2C%20device%20or%20channel.) - Watson was created as a question answering (QA) computing system that IBM built to apply advanced natural language processing, information retrieval, knowledge representation, automated reasoning, and machine learning technologies.
+- [FIGMA](https://www.figma.com/) - Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features.
+- [FRAMER](www.framer.com) - Framer is easy prototyping on the web. And it’s got all the team collaboration features you’d want in a high-fidelity prototyping tool.
 
 ## USAGE
 
-Install the app and login as Faculty or Student 
+Install the app and login as Faculty or Student.
 
 
 ## TEAM
