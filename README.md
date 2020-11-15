@@ -1,11 +1,12 @@
 # QNET
-Project For DefHack Hackathon by Team **BroCode**
+Project For DefHack Hackathon by Team **BroCode**.
 
 ## Problem Statement
 As we all know, we are in the phase of pendemic Covid-19, and students are forced to do their schooling through oline means.</br>
 - This created a barrior between the student teacher realationship, and between the fellow colleagues.
 - The managements are failing to provide adequate support to both the students and faculties.
-- Pendemic also became a threat to our extra curricular activities.
+- Pendemic also became a threat to other extra curricular activities.
+- All the facilities provided by the management such as library, labs etc remain unused.
 
 ## Solution ?
 An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or University. Meet the product **Qnet**. 
@@ -60,3 +61,4 @@ Install the app and login as Faculty or Student.
 ------------ | ------------- | ------------- | ------------- | ------------- 
 [@Adarsh88](https://github.com/Adarsh88) | [@itexpert2572000](https://github.com/itexpert2572000) | [@AlexyPulivelil](https://github.com/AlexyPulivelil) | [@ANASDAVOODTK](https://github.com/ANASDAVOODTK) | [@philona123](https://github.com/philona123)
 
+## Thankyou
