@@ -429,29 +429,29 @@
 
 
 
-   <LinearLayout
-       android:id="@+id/bot"
-       android:layout_width="70dp"
-       android:layout_height="70dp"
-       android:layout_alignParentLeft="true"
-       android:layout_alignParentTop="true"
-       android:layout_marginBottom="32dp"
-       android:background="@drawable/circle"
-       android:elevation="12dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.498"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="@+id/guideline"
-       app:layout_constraintVertical_bias="0.708">
+    <LinearLayout
+        android:id="@+id/bot"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/circle"
+        android:elevation="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.708">
 
-       <ImageView
-           android:id="@+id/imageView4"
-           android:layout_width="55dp"
-           android:layout_height="41dp"
-           android:layout_marginTop="17sp"
-           android:layout_weight="1"
-           app:srcCompat="@drawable/bot" />
-   </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="55dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="17sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bot" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,9 +7,11 @@ import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -295,6 +297,34 @@ public class BOtmachan extends AppCompatActivity {
                                                     outMessage.setId("2");
 
                                                     messageArrayList.add(outMessage);
+
+                                                    String abc = outMessage.getMessage();
+                                                    if (abc.equals("Showing map"))
+                                                    {
+                                                        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                                                            @Override
+                                                            public void run() {
+                                                                Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                                                        Uri.parse("https://goo.gl/maps/kEz1XfjLV712hWZp7"));
+                                                                startActivity(intent);
+                                                            }
+                                                        }, 1500);
+
+
+                                                    }
+                                                    else if(abc.equals("Opening library"))
+                                                    {
+
+                                                        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
+                                                            @Override
+                                                            public void run() {
+                                                                Intent i = new Intent(BOtmachan.this, Library1.class);
+                                                                startActivity(i);
+                                                            }
+                                                        }, 1000);
+
+                                                    }
+
 
                                                     // speak the message
                                                     new SayTask().execute(outMessage.getMessage());
