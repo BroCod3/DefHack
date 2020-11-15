@@ -42,5 +42,5 @@ Install the app and login as Faculty or Student
 ## TEAM
 ![Adarsh](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Adarsh.jpg) | ![Akhil](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Akhil.jpg) | ![Alexy](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Alexy.jpg) | ![Anas](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Anas.jpg) | ![Philona](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Philona.jpg)
 ------------ | ------------- | ------------- | ------------- | ------------- 
-@Adarsh88 | @itexpert2572000 | @AlexyPulivelil | @ANASDAVOODTK | @philona123
+[@Adarsh88](https://github.com/Adarsh88) | [@itexpert2572000](https://github.com/itexpert2572000) | [@AlexyPulivelil](https://github.com/AlexyPulivelil) | [@ANASDAVOODTK](https://github.com/ANASDAVOODTK) | [@philona123](https://github.com/philona123)
 
