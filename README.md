@@ -20,7 +20,7 @@ An All-In-One Platform To Meet 80% Of Your Needs In Your School, College or Univ
 
 ## Key Feature
 
-Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and college/university.   </br>
+Meet the AI model **Qbot**, powered by IBM Watson. The Qbot acts as an assistant to each student in the college/university, providing support in all the activities, including academics. This bot bridge the gap between the student and school/college/university.   </br>
 </br>
 ![gif](https://github.com/AlexyPulivelil/DefHack/blob/main/Assets/Bot%20GIF-downsized_large.gif)
 
