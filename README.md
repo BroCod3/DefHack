@@ -49,7 +49,7 @@ A mobile phone with Android as OS.
 
 - [JAVA](https://java.com/en/) - Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.Used here to develop the Android application.
 - [FIREBASE](https://firebase.google.com/) - Firebase is a platform developed by Google for creating mobile and web applications. Used here to store data in the cloud
-- [IBM WATSON](https://www.ibm.com/in-en/cloud/watson-assistant#:~:text=Watson%20Assistant%20is%20IBM's%20AI,any%20application%2C%20device%20or%20channel.) - Watson Assistant was created as a question answering (QA) computing system that IBM built to apply advanced natural language processing, information retrieval, knowledge representation, automated reasoning, and machine learning technologies.
+- [IBM ASSISTANT](https://www.ibm.com/in-en/cloud/watson-assistant#:~:text=Watson%20Assistant%20is%20IBM's%20AI,any%20application%2C%20device%20or%20channel.) - Watson Assistant was created as a question answering (QA) computing system that IBM built to apply advanced natural language processing, information retrieval, knowledge representation, automated reasoning, and machine learning technologies.
 - [FIGMA](https://www.figma.com/) - Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features.
 - [FRAMER](www.framer.com) - Framer is easy prototyping on the web. And it’s got all the team collaboration features you’d want in a high-fidelity prototyping tool.
 
